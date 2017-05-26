@@ -1,0 +1,105 @@
+# Chrome 开发者工具
+
+**官方文档上次更新日期：二月 24, 2017**
+
+Chrome 开发者工具是一套内置于Google Chrome中的Web开发和调试工具，可用来对网站进行迭代、调试和分析。
+
+## 打开Chrome 开发者工具
+
+* 在Chrome菜单中选择 **更多工具 > 开发者工具**
+* 在页面元素上右键点击，选择 “检查”
+* 使用 快捷键 Ctrl+Shift+I (Windows) 或 Cmd+Opt+I (Mac)
+
+## 了解面板
+
+**设备模式**
+
+使用设备模式构建完全响应式，移动优先的网络体验。
+
+* Device Mode
+* Test Responsive and Device-specific Viewports
+* Emulate Sensors: Geolocation & Accelerometer
+
+![Alt text](./1495775590126.png)
+
+**元素面板**
+
+使用元素面板可以自由的操作DOM和CSS来迭代布局和设计页面.
+
+* 检查和调整页面
+* 编辑样式
+* 编辑DOM
+
+![Alt text](./1495775604144.png)
+
+**控制台面板**
+
+在开发期间，可以使用控制台面板记录诊断信息，或者使用它作为 shell在页面上与JavaScript交互。
+
+* 使用控制台面板
+* 命令行交互
+
+![Alt text](./1495775617393.png)
+
+**源代码面板**
+
+在源代码面板中设置断点来调试 JavaScript ，或者通过Workspaces（工作区）连接本地文件来使用开发者工具的实时编辑器。
+
+* 断点调试
+* 调试混淆的代码
+* 使用开发者工具的Workspaces（工作区）进行持久化保存
+
+![Alt text](./1495775631896.png)
+
+**网络面板**
+
+使用网络面板了解请求和下载的资源文件并优化网页加载性能。
+
+* 网络面板基础
+* 了解资源时间轴
+* 网络带宽限制
+
+![Alt text](./1495775662176.png)
+
+**性能面板**
+
+> 注意: 在 Chrome 57 之后时间线面板更名为性能面板. Timeline Panel
+
+使用网络面板了解请求和下载的资源文件并优化网页加载性能。
+
+* 网络面板基础
+* 了解资源时间轴
+* 网络带宽限制
+* 性能面板
+
+![Alt text](./1495775745410.png)
+
+**内存面板**
+
+> 注意: 在 Chrome 57 之后分析面板更名为内存面板. Profiles Panel
+
+如果需要比时间轴面板提供的更多信息，可以使用“配置”面板，例如跟踪内存泄漏。 Use the Profiles panel if you need more information than the Timeline provide, for instance to track down memory leaks.
+
+* JavaScript CPU 分析器
+* 内存堆区分析器
+
+![Alt text](./1495775765303.png)
+
+**应用面板**
+
+>注意: 在 Chrome 52 之后资源面板更名为应用面板. Application Panel
+
+使用资源面板检查加载的所有资源，包括IndexedDB与Web SQL数据库，本地和会话存储，cookie，应用程序缓存，图像，字体和样式表。
+
+* 管理数据
+
+![Alt text](./1495775563504.png)
+
+**安全面板**
+
+使用安全面板调试混合内容问题，证书问题等等。
+
+* 安全
+
+![Alt text](./1495775549085.png)
+
