@@ -41,9 +41,9 @@
 
 您可以使用 [Google I/O 2016 Progressive Web App](https://events.google.com/io2016/?hl=zh-cn) 测试此功能，该应用可以为 **Add to Homescreen** 提供相应支持。在应用打开时点击 Add to Homescreen 会提示 Chrome 显示“add this site to your shelf”横幅（桌面设备），而在移动设备上则会显示“add to homescreen”横幅。
 
->**提示：**在模拟 Add to Homescreen 事件时请保持 **Console** 抽屉式导航栏处于打开状态。 Console 会告诉您清单是否存在任何问题，并记录与 Add to Homescreen 生命周期有关的其他信息。
+> **提示：** 在模拟 Add to Homescreen 事件时请保持 **Console** 抽屉式导航栏处于打开状态。 Console 会告诉您清单是否存在任何问题，并记录与 Add to Homescreen 生命周期有关的其他信息。
 
-**Add to Homescreen **功能还不能模拟移动设备的工作流。 注意“add to shelf”提示在上方屏幕截图中的触发方式（即使 DevTools 处于 Device Mode）。 不过，如果您可以将应用成功添加到桌面设备文件架，那么在移动设备上也可以获得成功。
+**Add to Homescreen** 功能还不能模拟移动设备的工作流。 注意“add to shelf”提示在上方屏幕截图中的触发方式（即使 DevTools 处于 Device Mode）。 不过，如果您可以将应用成功添加到桌面设备文件架，那么在移动设备上也可以获得成功。
 
 如果您希望测试真实的移动体验，则可以通过[远程调试](https://developers.google.com/web/tools/chrome-devtools/debug/remote-debugging/remote-debugging?hl=zh-cn)将一台真实的移动设备连接到 DevTools，然后点击 DevTools 上的 Add to Homescreen 按钮，在连接的移动设备上触发“add to homescreen”提示。
 
@@ -74,7 +74,7 @@
 
 如果服务工作线程导致任何错误，将显示一个名为 **Errors** 的新标签。
 
-![image](https://github.com/Evalute/chrome-devTools/tree/master/table%20of%20Contents/N.2%20%E8%B0%83%E8%AF%95%20Progressive%20Web%20App/img)
+![image](https://github.com/Evalute/chrome-devTools/blob/master/table%20of%20Contents/N.2%20%E8%B0%83%E8%AF%95%20Progressive%20Web%20App/img/sw-error.png)
 
 ## 服务工作线程缓存
 
